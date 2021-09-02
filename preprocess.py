@@ -5,6 +5,7 @@ import random
 import PIL.Image
 import numpy as np
 import configparser
+from collections import Counter
 
 defects=["Slubs",
         "Barre",
@@ -300,7 +301,7 @@ def analyzeDefectCount(datasetPath, trainComponent):
             if((file_name[-3:]=="bmp") and (file_name[:-4] not in trainImageNames)):
                 testImageNames.append(file_name[:-4])
 
-    return trainImageNames, testImageNames, totalDefects, trainDefects, totalDefects-trainDefects
+    return trainImageNames, testImageNames, totalDefects, trainDefects, Counter(totalDefects)-Counter(trainDefects)
 
 
 print("\n-------------------------- Creating Folder structure -------------------------")

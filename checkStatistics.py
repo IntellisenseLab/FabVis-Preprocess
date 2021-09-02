@@ -1,7 +1,7 @@
-from configparser import SafeConfigParser
+import configparser
 import os
 
-config = SafeConfigParser()
+config = configparser()
 
 config.read(os.path.dirname(os.path.abspath(__file__))+"/../config/statistics.ini")
 
