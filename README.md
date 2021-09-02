@@ -15,6 +15,8 @@ Create a folder to hold the base dataset
 mkdir dataset
 ```
 
+Optionally download existing data set from [here](https://drive.google.com/drive/folders/1ydFYKZxfJdkf1DyhO2EZK7M5WZNHuHNE?usp=sharing) and extract.
+
  <br>
 
 ## Dataset labelling
