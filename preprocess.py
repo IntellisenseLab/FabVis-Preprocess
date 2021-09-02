@@ -324,6 +324,12 @@ try:
 except FileExistsError: 
     print(os.path.dirname(os.path.abspath(__file__))+"/../config/"+" already exist")
 
+try: 
+    os.makedirs(os.path.dirname(os.path.abspath(__file__))+"/../weights/")
+    print(os.path.dirname(os.path.abspath(__file__))+"/../weights/"+" created")
+except FileExistsError: 
+    print(os.path.dirname(os.path.abspath(__file__))+"/../weights/"+" already exist")
+
 datasetPath = os.path.dirname(os.path.abspath(__file__))+"/dataset/"
 imageWritePath = os.path.dirname(os.path.abspath(__file__))+"/../images/"
 configWritePath = os.path.dirname(os.path.abspath(__file__))+"/../config/"
