@@ -135,7 +135,7 @@ def processData(slideHeight, slideWidth, jump, sourceFolder, targetFolder, train
     for file in filesTrain:
         os.remove(file)
 
-    filesTest = glob.glob(targetFolderTrain+"*")
+    filesTest = glob.glob(targetFolderTest+"*")
     for file in filesTest:
         os.remove(file)
 
