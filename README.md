@@ -62,18 +62,29 @@ python3 checkDataset.py
 
 <br>
 
-### Total Defects
+### Annotated Defects
 
-| Defect      | Count |
-| :---------: | :---: |
-| Abrasion    |  1    |
-| Crease line |  614  |
-| Dead Cotton |  3    |
-| Hole        |  7    |
-| Snag        |  6    |
-| Laddering   |  2    |
-| Slub        |  9    |
-| Stain       |  374  |
+| Defect                 | Count |
+| :-------------------:  | :---: |
+| Slubs                  |  34   |
+| Barre                  |  6    |
+| Thick Yarn             |  0    |
+| Foreign Yarn           |  3    |
+| Missing Line           |  40   |
+| Holes                  |  50   |
+| Knots                  |  0    |
+| Misknit                |  8    |
+| Dye Spot               |  10   |
+| Crease line/Crush Mark |  324  |
+| Stains/Dirty           |  293  |
+| Stop marks             |  0    |
+| Snagging               |  18   |
+| Laddering              |  26   |
+
+### Dataset Distribution
+
+![chart](https://user-images.githubusercontent.com/25496607/139519516-2ba78a12-a422-4a2f-87c7-0952b17dfba9.png)
+
 
 <br>
 
