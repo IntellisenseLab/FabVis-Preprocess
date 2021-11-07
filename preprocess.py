@@ -298,7 +298,7 @@ def analyzeDefectCount(datasetPath, trainComponent):
             completion = checkCompletion(trainDefects, totalDefects, trainComponent)
     else:
         for file_name in src_files:
-            if((file_name[-3:]=="bmp") and (file_name[:-4] not in trainImageNames)):
+            if((file_name[-3:]=="bmp") and (file_name[:-4] not in trainImageNames) and os.path.exists(datasetPath+file_name[:-3]+"txt")):
                 testImageNames.append(file_name[:-4])
 
     return trainImageNames, testImageNames, totalDefects, trainDefects, Counter(totalDefects)-Counter(trainDefects)
