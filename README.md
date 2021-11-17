@@ -66,25 +66,24 @@ python3 checkDataset.py
 
 | Defect                 | Count |
 | :-------------------:  | :---: |
-| Slubs                  |  34   |
-| Barre                  |  6    |
+| Slubs                  |  44   |
+| Barre                  |  7    |
 | Thick Yarn             |  0    |
 | Foreign Yarn           |  3    |
-| Missing Line           |  40   |
-| Holes                  |  50   |
+| Missing Line           |  64   |
+| Holes                  |  68   |
 | Knots                  |  0    |
 | Misknit                |  8    |
-| Dye Spot               |  10   |
-| Crease line/Crush Mark |  324  |
-| Stains/Dirty           |  293  |
+| Dye Spot               |  12   |
+| Crease line/Crush Mark |  423  |
+| Stains/Dirty           |  380  |
 | Stop marks             |  0    |
-| Snagging               |  18   |
+| Snagging               |  34   |
 | Laddering              |  26   |
 
 ### Dataset Distribution
 
-![chart](https://user-images.githubusercontent.com/25496607/139519516-2ba78a12-a422-4a2f-87c7-0952b17dfba9.png)
-
+![chart]()
 
 <br>
 
