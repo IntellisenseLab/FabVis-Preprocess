@@ -83,7 +83,7 @@ python3 checkDataset.py
 
 ### Dataset Distribution
 
-![chart]()
+![chart](https://user-images.githubusercontent.com/25496607/142191954-7654a94a-ffc7-455d-b078-fa96f5f29307.png)
 
 <br>
 
